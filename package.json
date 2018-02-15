@@ -5,7 +5,6 @@
    "description": "Snekchek linter plugin for atom",
    "keywords": [],
    "activationCommands": {
-      "atom-workspace": "snekchek:toggle"
    },
    "repository": "https://github.com/atom/snekchek",
    "license": "MIT",
