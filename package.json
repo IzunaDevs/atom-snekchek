@@ -1,0 +1,37 @@
+{
+   "name":"snekchek",
+   "main":"./lib/snekchek.js",
+   "version":"0.0.0",
+   "description":"Snekchek linter plugin for atom",
+   "keywords":[
+
+   ],
+   "activationCommands":{
+      "atom-workspace":"snekchek:toggle"
+   },
+   "repository":"https://github.com/atom/snekchek",
+   "license":"MIT",
+   "engines":{
+      "atom":">=1.0.0 <2.0.0"
+   },
+   "dependencies":{
+       "atom-linter": "^10.0.0"
+   },
+   "package-deps": [
+    "linter:2.0.0"
+    ],
+   "providedServices":{
+      "linter":{
+         "versions":{
+            "2.0.0":"provideLinter"
+         }
+      }
+    },
+   "configSchema":{
+       "executablePath":{
+           "type":"string",
+           "default":"snekchek",
+           "description":"Path to snekchek executable."
+       }
+   }
+}

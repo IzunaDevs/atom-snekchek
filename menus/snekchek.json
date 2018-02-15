@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle snekchek",
+        "command": "snekchek:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "snekchek",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "snekchek:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
