@@ -6,7 +6,7 @@
    "keywords": [],
    "activationCommands": {
    },
-   "repository": "https://github.com/atom/snekchek",
+   "repository": "https://github.com/IzunaDevs/atom-snekchek",
    "license": "MIT",
    "engines": {
       "atom": ">=1.0.0 <2.0.0"
