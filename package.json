@@ -1,9 +1,14 @@
 {
   "name": "snekchek",
   "main": "./lib/snekchek.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Snekchek linter plugin for atom",
-  "keywords": ["linter","python","pep8","flake8"],
+  "keywords": [
+    "linter",
+    "python",
+    "pep8",
+    "flake8"
+  ],
   "activationCommands": {},
   "repository": "https://github.com/IzunaDevs/atom-snekchek",
   "license": "MIT",
