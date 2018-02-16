@@ -1,7 +1,7 @@
 {
   "name": "snekchek",
   "main": "./lib/snekchek.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Snekchek linter plugin for atom",
   "keywords": [
     "linter",
